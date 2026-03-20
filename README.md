@@ -21,7 +21,7 @@ Para compilar e testar você irá precisar:
 - mtools
 - xorriso
 
-Para compilar e testar use os comandos abaixo:
+Use os comandos abaixo para compilar e testar o MiOSLite.
 
 ```
 nasm -f elf32 src/boot.asm -o src/boot.o
