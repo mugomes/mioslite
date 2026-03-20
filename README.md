@@ -1,5 +1,8 @@
 # MiOSLite
 
+> [!NOTE]
+> Este projeto ainda está em fase inicial de desenvolvimento.
+
 Estou reescrevendo um sistema operacional que desenvolvi quando era mais novo. Infelizmente, não tenho mais os códigos que criei na época, eu havia armazenado eles em um disquete, que infelizmente não funciona mais.
 
 Por isso, farei um novo projeto totalmente do zero, em Assembly e C. Ele será disponibilizado neste repositório sob a licença GPL-2.0-only.
