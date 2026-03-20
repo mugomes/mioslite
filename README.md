@@ -8,6 +8,37 @@ Por isso, farei um novo projeto totalmente do zero, em Assembly e C. Ele será d
 
 Como vou fazer isso em meu tempo livre, deve demorar um pouco até o lançamento, mas, conforme for desenvolvendo, vou atualizando este repositório mostrando a evolução do código.
 
+## Compilar
+
+Para compilar e testar você irá precisar:
+
+- build-essential
+- nasm
+- gcc-x86-64-linux-gnu
+- qemu-system-x86
+- grub-common
+- grub-pc-bin
+- mtools
+- xorriso
+
+Para compilar e testar use os comandos abaixo:
+
+```
+nasm -f elf32 src/boot.asm -o src/boot.o
+gcc -m32 -ffreestanding -fno-stack-protector -c src/kernel.c -o src/kernel.o
+ld -m elf_i386 -T linker.ld -o src/kernel.bin src/boot.o src/kernel.o
+
+mkdir -p build/boot/grub
+mkdir -p iso/
+
+cp src/kernel.bin build/boot/
+cp src/boot/grub.cfg build/boot/grub/
+
+grub-mkrescue -o iso/mioslite.iso build
+
+qemu-system-x86_64 -cdrom iso/mioslite.iso
+```
+
 ## 💙 Apoie
 
 - GitHub: https://github.com/sponsors/mugomes
