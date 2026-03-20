@@ -1,0 +1,10 @@
+# build
+build/
+
+# iso
+iso/
+
+# src
+src/boot.o
+src/kernel.bin
+src/kernel.o
