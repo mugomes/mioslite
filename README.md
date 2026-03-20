@@ -8,7 +8,7 @@ Por isso, farei um novo projeto totalmente do zero, em Assembly e C. Ele será d
 
 Como vou fazer isso em meu tempo livre, deve demorar um pouco até o lançamento, mas, conforme for desenvolvendo, vou atualizando este repositório mostrando a evolução do código.
 
-## Compilar
+## Compilação
 
 Para compilar e testar você irá precisar:
 
