@@ -11,6 +11,12 @@ Por isso, farei um novo projeto totalmente do zero, em Assembly e C. Ele será d
 
 Como vou fazer isso em meu tempo livre, deve demorar um pouco até o lançamento, mas, conforme for desenvolvendo, vou atualizando este repositório mostrando a evolução do código.
 
+## Método Vibe Coding
+
+Quando eu iniciei meus estudos em programação, comecei com Assembly e C, na época usava Internet discada, hoje com o avanço da tecnologia, podemos desenvolver um sistema operacional com mais rapidez, além de ter muito conteúdo na Internet, velocidade de banda larga muito maior, temos as LLMs (IA).
+
+Nessa nova atualização do projeto, no desenvolvimento do mini terminal, passei a usar as LLMs para acelerar o desenvolvimento, usando somente nas partes que são mais necessárias, cada código é testado e corrigido manualmente.
+
 ## Compilação
 
 Para compilar e testar você irá precisar:
