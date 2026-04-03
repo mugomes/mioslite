@@ -5,7 +5,7 @@
 
 Estou reescrevendo um sistema operacional que desenvolvi quando era mais novo. Infelizmente, não tenho mais os códigos que criei na época, eu havia armazenado eles em um disquete, que infelizmente não funciona mais.
 
-Por isso, farei um novo projeto totalmente do zero, em Assembly e C. Ele será disponibilizado neste repositório sob a licença GPL-2.0-only.
+Por isso, estou desenvolvendo esse projeto totalmente do zero, em Assembly e C. Esse projeto está disponível sob a licença GPL-2.0-only.
 
 É um projeto pequeno, que terá uma interface gráfica simples, a ideia é apenas demonstrar os primeiros passos no desenvolvimento de um sistema operacional.
 
